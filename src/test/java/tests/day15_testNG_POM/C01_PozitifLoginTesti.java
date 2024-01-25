@@ -1,4 +1,4 @@
-package tests.day15_testNG_POMs;
+package tests.day15_testNG_POM;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;

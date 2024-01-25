@@ -1,4 +1,4 @@
-package tests.day15_testNG_POMs;
+package tests.day15_testNG_POM;
 
 import org.testng.annotations.Test;
 import utilities.Driver;
