@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 16">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C03_FacebookNegatifLoginTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C04_ToFormTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +47,13 @@
     "TestNG.C04_DepensOnMethods.b.executor": "Run",
     "TestNG.C04_DepensOnMethods.c.executor": "Run",
     "TestNG.C04_DepensOnMethods.executor": "Run",
+    "TestNG.C04_ToFormTesti.executor": "Run",
+    "TestNG.C04_ToFormTesti.formTesti.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C03_FacebookNegatifLoginTesti">
+  <component name="RunManager" selected="TestNG.C04_ToFormTesti">
     <configuration name="C01_PageClassIlePozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
@@ -105,35 +106,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DepensOnMethods.b" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_ToFormTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15_testNG_POM.*" />
+          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15_testNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15_testNG_POM.C04_DepensOnMethods" />
-      <option name="METHOD_NAME" value="b" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C04_ToFormTesti" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DepensOnMethods.c" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_ToFormTesti.formTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15_testNG_POM.*" />
+          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15_testNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15_testNG_POM.C04_DepensOnMethods" />
-      <option name="METHOD_NAME" value="c" />
+      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C04_ToFormTesti" />
+      <option name="METHOD_NAME" value="formTesti" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C04_ToFormTesti" />
+        <item itemvalue="TestNG.C04_ToFormTesti.formTesti" />
         <item itemvalue="TestNG.C03_FacebookNegatifLoginTesti" />
         <item itemvalue="TestNG.C02_PageClassKullanimi.aramaTesti" />
         <item itemvalue="TestNG.C01_PageClassIlePozitifLoginTesti" />
-        <item itemvalue="TestNG.C04_DepensOnMethods.b" />
-        <item itemvalue="TestNG.C04_DepensOnMethods.c" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706292567562</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="day 16">
+      <option name="closed" value="true" />
+      <created>1706295153200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706295153200</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
