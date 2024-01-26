@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="driver">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C02_PageClassKullanimi.java" afterDir="false" />
+    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 16">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C03_FacebookNegatifLoginTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C01_PageClassIlePozitifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C01_PageClassIlePozitifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "TestNG.C01_TestNGIlkTest.executor": "Run",
     "TestNG.C02_PageClassKullanimi.aramaTesti.executor": "Run",
     "TestNG.C02_Priority.executor": "Run",
+    "TestNG.C03_FacebookNegatifLoginTesti.executor": "Run",
     "TestNG.C03_PriorityKurallari.executor": "Run",
     "TestNG.C04_DepensOnMethods.b.executor": "Run",
     "TestNG.C04_DepensOnMethods.c.executor": "Run",
@@ -51,7 +52,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C02_PageClassKullanimi.aramaTesti">
+  <component name="RunManager" selected="TestNG.C03_FacebookNegatifLoginTesti">
     <configuration name="C01_PageClassIlePozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
@@ -87,16 +88,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DepensOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_FacebookNegatifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day15_testNG_POM.*" />
+          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day15_testNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15_testNG_POM.C04_DepensOnMethods" />
+      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C03_FacebookNegatifLoginTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -142,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_FacebookNegatifLoginTesti" />
         <item itemvalue="TestNG.C02_PageClassKullanimi.aramaTesti" />
         <item itemvalue="TestNG.C01_PageClassIlePozitifLoginTesti" />
         <item itemvalue="TestNG.C04_DepensOnMethods.b" />
         <item itemvalue="TestNG.C04_DepensOnMethods.c" />
-        <item itemvalue="TestNG.C04_DepensOnMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -214,14 +215,22 @@
       <option name="project" value="LOCAL" />
       <updated>1706214425335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day 16">
+      <option name="closed" value="true" />
+      <created>1706292567562</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706292567562</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day 15" />
-    <MESSAGE value="day 16" />
     <MESSAGE value="pages" />
     <MESSAGE value="driver" />
-    <option name="LAST_COMMIT_MESSAGE" value="driver" />
+    <MESSAGE value="day 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 16" />
   </component>
 </project>
