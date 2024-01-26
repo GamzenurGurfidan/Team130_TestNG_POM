@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 16">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C04_ToFormTesti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebUniversityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C05_WebUniversityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,46 +49,13 @@
     "TestNG.C04_DepensOnMethods.executor": "Run",
     "TestNG.C04_ToFormTesti.executor": "Run",
     "TestNG.C04_ToFormTesti.formTesti.executor": "Run",
+    "TestNG.C05_WebUniversityTest.executor": "Run",
+    "TestNG.C05_WebUniversityTest.webUniversityTest.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C04_ToFormTesti">
-    <configuration name="C01_PageClassIlePozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team130_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C01_PageClassIlePozitifLoginTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_PageClassKullanimi.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team130_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C02_PageClassKullanimi" />
-      <option name="METHOD_NAME" value="aramaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C05_WebUniversityTest">
     <configuration name="C03_FacebookNegatifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
@@ -141,13 +108,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C05_WebUniversityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team130_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C05_WebUniversityTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_WebUniversityTest.webUniversityTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team130_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_testNG_POM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_testNG_POM" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_testNG_POM.C05_WebUniversityTest" />
+      <option name="METHOD_NAME" value="webUniversityTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C05_WebUniversityTest" />
+        <item itemvalue="TestNG.C05_WebUniversityTest.webUniversityTest" />
         <item itemvalue="TestNG.C04_ToFormTesti" />
         <item itemvalue="TestNG.C04_ToFormTesti.formTesti" />
         <item itemvalue="TestNG.C03_FacebookNegatifLoginTesti" />
-        <item itemvalue="TestNG.C02_PageClassKullanimi.aramaTesti" />
-        <item itemvalue="TestNG.C01_PageClassIlePozitifLoginTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706295153200</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="day 16">
+      <option name="closed" value="true" />
+      <created>1706296488737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706296488737</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
