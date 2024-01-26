@@ -2,10 +2,16 @@ package pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import utilities.Driver;
 
 import java.util.List;
 
 public class TestOtomasyonPage {
+
+    public TestOtomasyonPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
 
     /*
         Page classlari locate yapmak ve
@@ -27,7 +33,7 @@ public class TestOtomasyonPage {
     public WebElement emailKutusu;
 
     @FindBy(xpath = "//input[@id='password']")
-    public WebElement passwprdKutusu;
+    public WebElement passwordKutusu;
 
     @FindBy(xpath = "//*[@id='submitlogin']")
     public WebElement loginButonu;

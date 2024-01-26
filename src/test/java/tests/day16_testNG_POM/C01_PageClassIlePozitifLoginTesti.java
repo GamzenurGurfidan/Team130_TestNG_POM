@@ -1,8 +1,10 @@
 package tests.day16_testNG_POM;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.TestOtomasyonPage;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C01_PageClassIlePozitifLoginTesti {
 
@@ -25,6 +27,13 @@ public class C01_PageClassIlePozitifLoginTesti {
         testOtomasyonPage.accountLinki.click();
 
         testOtomasyonPage.emailKutusu.sendKeys("wise@gmail.com");
+        testOtomasyonPage.passwordKutusu.sendKeys("12345");
+        testOtomasyonPage.loginButonu.click();
 
+        Assert.assertTrue(testOtomasyonPage.logoutButonu.isDisplayed());
+
+
+        ReusableMethods.bekle(2);
+        Driver.quitDriver();
     }
 }
