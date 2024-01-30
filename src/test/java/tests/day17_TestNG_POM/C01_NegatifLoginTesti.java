@@ -8,7 +8,7 @@ import utilities.Driver;
 
 public class C01_NegatifLoginTesti {
 
-    @Test
+    @Test(groups = {"smoke","E2E","regression"})
     public void gecersizPasswordTesti(){
 
         // 1- https://www.testotomasyonu.com/ anasayfasina gidin
@@ -36,6 +36,7 @@ public class C01_NegatifLoginTesti {
 
         Driver.quitDriver();
     }
+
     @Test
     public void gecersizEmailTesti(){
 
@@ -65,7 +66,9 @@ public class C01_NegatifLoginTesti {
 
         Driver.quitDriver();
 
-    }@Test
+    }
+
+    @Test(groups = "smoke")
     public void gecersizEmailGecersizPasswordTesti(){
 
         // 1- https://www.testotomasyonu.com/ anasayfasina gidin

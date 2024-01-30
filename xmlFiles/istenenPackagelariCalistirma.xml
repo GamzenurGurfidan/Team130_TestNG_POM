@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- day15 ve day16 packagelarindaki tum classlari clistirin -->
+
+<suite name="packageCalistirma">
+    
+    <test name="day15 ve day16">
+        
+        <packages>
+            <package name="tests.day15_testNG_POM"></package>
+            <package name="tests.day16_testNG_POM"></package>
+        </packages>
+        
+    </test>
+    
+</suite>

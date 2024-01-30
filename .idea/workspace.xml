@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 17">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ZeroWebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_softAssertion_xmlFiles/C01_SoftAssertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_softAssertion_xmlFiles/C02_WebAppTesti.java" afterDir="false" />
+    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 18">
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenPackagelariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/tumTestleriCalistirma.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C01_NegatifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C01_NegatifLoginTesti.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +66,14 @@
     "TestNG.C05_WebUniversityTest.webUniversityTest.executor": "Run",
     "TestNG.C06_ConfigurationPropertiesDosyasiKullanma.executor": "Run",
     "TestNG.C06_ConfigurationPropertiesDosyasiKullanma.pozitifLoginTesti.executor": "Run",
+    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenClasslariCalistirma.xml.executor": "Run",
+    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml.executor": "Run",
+    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C02_WebAppTesti">
+  <component name="RunManager" selected="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml">
     <configuration name="C02_WebAppTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
@@ -87,70 +91,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_SwitchingWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenClasslariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17_TestNG_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day17_TestNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17_TestNG_POM.C03_SwitchingWindows" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_DriverClassSingletonPattern.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17_TestNG_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day17_TestNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17_TestNG_POM.C04_DriverClassSingletonPattern" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Assertions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17_TestNG_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day17_TestNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17_TestNG_POM.C05_Assertions" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/istenenPackagelariCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_Assertions.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day17_TestNG_POM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day17_TestNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17_TestNG_POM.C05_Assertions" />
-      <option name="METHOD_NAME" value="aramaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/tumTestleriCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml" />
+        <item itemvalue="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenClasslariCalistirma.xml" />
         <item itemvalue="TestNG.C02_WebAppTesti" />
-        <item itemvalue="TestNG.C05_Assertions" />
-        <item itemvalue="TestNG.C05_Assertions.aramaTesti" />
-        <item itemvalue="TestNG.C04_DriverClassSingletonPattern.test01" />
-        <item itemvalue="TestNG.C03_SwitchingWindows" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706624843168</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="day 18">
+      <option name="closed" value="true" />
+      <created>1706642136383</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706642136383</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,7 +270,8 @@
     <MESSAGE value="driver" />
     <MESSAGE value="day 16" />
     <MESSAGE value="day 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 17" />
+    <MESSAGE value="day 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
