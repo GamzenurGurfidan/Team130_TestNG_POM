@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 16">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonuAddRemovePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C01_NegatifLoginTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C02_UrunSepetiTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C03_SwitchingWindows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C04_DriverClassSingletonPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day17_TestNG_POM/C05_Assertions.java" afterDir="false" />
+    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 17">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ZeroWebPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_softAssertion_xmlFiles/C01_SoftAssertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_softAssertion_xmlFiles/C02_WebAppTesti.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,7 @@
     "TestNG.C02_PageClassKullanimi.aramaTesti.executor": "Run",
     "TestNG.C02_Priority.executor": "Run",
     "TestNG.C02_UrunSepetiTesti.executor": "Run",
+    "TestNG.C02_WebAppTesti.executor": "Run",
     "TestNG.C03_FacebookNegatifLoginTesti.executor": "Run",
     "TestNG.C03_PriorityKurallari.executor": "Run",
     "TestNG.C03_SwitchingWindows.executor": "Run",
@@ -73,17 +69,17 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.C05_Assertions">
-    <configuration name="C02_UrunSepetiTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C02_WebAppTesti">
+    <configuration name="C02_WebAppTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day17_TestNG_POM.*" />
+          <option name="PATTERN" value="tests.day18_softAssertion_xmlFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day17_TestNG_POM" />
-      <option name="MAIN_CLASS_NAME" value="tests.day17_TestNG_POM.C02_UrunSepetiTesti" />
+      <option name="PACKAGE_NAME" value="tests.day18_softAssertion_xmlFiles" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_softAssertion_xmlFiles.C02_WebAppTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -163,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_WebAppTesti" />
         <item itemvalue="TestNG.C05_Assertions" />
         <item itemvalue="TestNG.C05_Assertions.aramaTesti" />
         <item itemvalue="TestNG.C04_DriverClassSingletonPattern.test01" />
         <item itemvalue="TestNG.C03_SwitchingWindows" />
-        <item itemvalue="TestNG.C02_UrunSepetiTesti" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706300551101</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="day 17">
+      <option name="closed" value="true" />
+      <created>1706624843168</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706624843168</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -283,7 +287,8 @@
     <MESSAGE value="pages" />
     <MESSAGE value="driver" />
     <MESSAGE value="day 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 16" />
+    <MESSAGE value="day 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
