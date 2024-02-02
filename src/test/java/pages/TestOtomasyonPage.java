@@ -56,4 +56,7 @@ public class TestOtomasyonPage {
     @FindBy(xpath = "//*[@*='product-title text-center']")
     public WebElement sepettekiUrunIsmi;
 
+    @FindBy(xpath = "//*[@*='product-count-text']")
+    public WebElement bulunanSayisiElementi;
+
 }

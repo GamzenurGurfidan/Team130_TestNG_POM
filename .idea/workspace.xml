@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 15">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C01_PozitifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C01_PozitifLoginTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C02_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C02_Priority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C03_PriorityKurallari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C03_PriorityKurallari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C04_DepensOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C04_DepensOnMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlFiles/istenenPackagelariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/istenenPackagelariCalistirma.xml" afterDir="false" />
+    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 19">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20_DataProvider_CrossBrowserTest/C01_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20_DataProvider_CrossBrowserTest/C02_DataProviderIleNegatifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestOtomasyonPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GamzenurGurfidan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="11c7e0c8-c94a-4d68-ba46-d6ec7566b957" />
+        <option name="url" value="https://github.com/GamzenurGurfidan/Team130_TestNG_POM.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -37,81 +48,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C01_NegatifLoginTesti.executor": "Run",
-    "TestNG.C01_NegatifLoginTesti.gecersizEmailGecersizPasswordTesti.executor": "Run",
-    "TestNG.C01_NegatifLoginTesti.gecersizEmailTesti.executor": "Run",
-    "TestNG.C01_NegatifLoginTesti.gecersizPasswordTesti.executor": "Run",
-    "TestNG.C01_PageClassIlePozitifLoginTesti.executor": "Run",
-    "TestNG.C01_PozitifLoginTesti.executor": "Run",
-    "TestNG.C01_RaporluTestOlusturma.aramaTesti.executor": "Run",
-    "TestNG.C01_SoftAssertion.executor": "Run",
-    "TestNG.C01_SoftAssertion.sofAssertAramaTesti.executor": "Run",
-    "TestNG.C01_TestNGIlkTest.executor": "Run",
-    "TestNG.C02_PageClassKullanimi.aramaTesti.executor": "Run",
-    "TestNG.C02_Priority.executor": "Run",
-    "TestNG.C02_RaporluAramaSepetiTesti.aramaSepetiTesti.executor": "Run",
-    "TestNG.C02_RaporluAramaSepetiTesti.executor": "Run",
-    "TestNG.C02_UrunSepetiTesti.executor": "Run",
-    "TestNG.C02_WebAppTesti.executor": "Run",
-    "TestNG.C03_FacebookNegatifLoginTesti.executor": "Run",
-    "TestNG.C03_PriorityKurallari.executor": "Run",
-    "TestNG.C03_SwitchingWindows.executor": "Run",
-    "TestNG.C04_DepensOnMethods.b.executor": "Run",
-    "TestNG.C04_DepensOnMethods.c.executor": "Run",
-    "TestNG.C04_DepensOnMethods.executor": "Run",
-    "TestNG.C04_DriverClassSingletonPattern.test01.executor": "Run",
-    "TestNG.C04_ToFormTesti.executor": "Run",
-    "TestNG.C04_ToFormTesti.formTesti.executor": "Run",
-    "TestNG.C05_Assertions.aramaTesti.executor": "Run",
-    "TestNG.C05_Assertions.executor": "Run",
-    "TestNG.C05_WebUniversityTest.executor": "Run",
-    "TestNG.C05_WebUniversityTest.webUniversityTest.executor": "Run",
-    "TestNG.C06_ConfigurationPropertiesDosyasiKullanma.executor": "Run",
-    "TestNG.C06_ConfigurationPropertiesDosyasiKullanma.pozitifLoginTesti.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/ClassBazindaParalelCalistirma.xml.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenClasslariCalistirma.xml.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenGruplariCalistirma.xml.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/testBazindaParalelCalistirma.xml.executor": "Run",
-    "TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C01_DataProvider (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_DataProvider.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_NegatifLoginTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_NegatifLoginTesti.gecersizEmailGecersizPasswordTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_NegatifLoginTesti.gecersizEmailTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_NegatifLoginTesti.gecersizPasswordTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_PageClassIlePozitifLoginTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_PozitifLoginTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_RaporluTestOlusturma.aramaTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_SoftAssertion.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_SoftAssertion.sofAssertAramaTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C01_TestNGIlkTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_DataProviderIleNegatifLoginTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_PageClassKullanimi.aramaTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_Priority.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_RaporluAramaSepetiTesti.aramaSepetiTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_RaporluAramaSepetiTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_UrunSepetiTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C02_WebAppTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C03_FacebookNegatifLoginTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C03_PriorityKurallari.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C03_SwitchingWindows.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C04_DepensOnMethods.b.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C04_DepensOnMethods.c.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C04_DepensOnMethods.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C04_DriverClassSingletonPattern.test01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C04_ToFormTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C04_ToFormTesti.formTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C05_Assertions.aramaTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C05_Assertions.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C05_WebUniversityTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C05_WebUniversityTest.webUniversityTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C06_ConfigurationPropertiesDosyasiKullanma.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C06_ConfigurationPropertiesDosyasiKullanma.pozitifLoginTesti.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/ClassBazindaParalelCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenClasslariCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenGruplariCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenMethodlariCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/testBazindaParalelCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/tumTestleriCalistirma.xml.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml">
-    <configuration name="C01_RaporluTestOlusturma.aramaTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.C02_DataProviderIleNegatifLoginTesti">
+    <configuration name="C01_DataProvider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19_TestNGReports.*" />
+          <option name="PATTERN" value="tests.day20_DataProvider_CrossBrowserTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19_TestNGReports" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19_TestNGReports.C01_RaporluTestOlusturma" />
-      <option name="METHOD_NAME" value="aramaTesti" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="tests.day20_DataProvider_CrossBrowserTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20_DataProvider_CrossBrowserTest.C01_DataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_RaporluAramaSepetiTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_DataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Team130_TestNG_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19_TestNGReports.*" />
+          <option name="PATTERN" value="tests.day20_DataProvider_CrossBrowserTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19_TestNGReports" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19_TestNGReports.C02_RaporluAramaSepetiTesti" />
+      <option name="PACKAGE_NAME" value="tests.day20_DataProvider_CrossBrowserTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20_DataProvider_CrossBrowserTest.C01_DataProvider" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_DataProviderIleNegatifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Team130_TestNG_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day20_DataProvider_CrossBrowserTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day20_DataProvider_CrossBrowserTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.day20_DataProvider_CrossBrowserTest.C02_DataProviderIleNegatifLoginTesti" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,23 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/testBazindaParalelCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Team130_TestNG_POM" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/testBazindaParalelCalistirma.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_DataProviderIleNegatifLoginTesti" />
+        <item itemvalue="TestNG.C01_DataProvider" />
+        <item itemvalue="TestNG.C01_DataProvider (1)" />
         <item itemvalue="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/istenenPackagelariCalistirma.xml" />
         <item itemvalue="TestNG.C02_RaporluAramaSepetiTesti.aramaSepetiTesti" />
-        <item itemvalue="TestNG.C02_RaporluAramaSepetiTesti" />
-        <item itemvalue="TestNG.C01_RaporluTestOlusturma.aramaTesti" />
-        <item itemvalue="TestNG.C:/Users/Gamzenur/IdeaProjects/Team130_TestNG_POM/xmlFiles/testBazindaParalelCalistirma.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -336,18 +356,75 @@
       <option name="project" value="LOCAL" />
       <updated>1706890601963</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day 16">
+      <option name="closed" value="true" />
+      <created>1706890627761</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890627762</updated>
+    </task>
+    <task id="LOCAL-00021" summary="day 16">
+      <option name="closed" value="true" />
+      <created>1706890645940</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890645940</updated>
+    </task>
+    <task id="LOCAL-00022" summary="day 17">
+      <option name="closed" value="true" />
+      <created>1706890666347</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890666347</updated>
+    </task>
+    <task id="LOCAL-00023" summary="day 17">
+      <option name="closed" value="true" />
+      <created>1706890688526</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890688526</updated>
+    </task>
+    <task id="LOCAL-00024" summary="day 18">
+      <option name="closed" value="true" />
+      <created>1706890735626</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890735626</updated>
+    </task>
+    <task id="LOCAL-00025" summary="day 19">
+      <option name="closed" value="true" />
+      <created>1706890765762</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890765762</updated>
+    </task>
+    <task id="LOCAL-00026" summary="day 19">
+      <option name="closed" value="true" />
+      <created>1706890783830</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890783830</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pages" />
     <MESSAGE value="driver" />
+    <MESSAGE value="day 14" />
+    <MESSAGE value="day 15" />
     <MESSAGE value="day 16" />
     <MESSAGE value="day 17" />
     <MESSAGE value="day 18" />
-    <MESSAGE value="day 14" />
-    <MESSAGE value="day 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 15" />
+    <MESSAGE value="day 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 19" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
