@@ -1,9 +1,7 @@
-package tests.day17_TestNG_POM;
+package tests.day17_TestNG_POMg;
 
-import org.bouncycastle.jcajce.provider.digest.SHA512;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pages.TestOtomasyonPage;
 import pages.TestOtomasyonuAddRemovePage;
 import utilities.ConfigReader;
 import utilities.Driver;

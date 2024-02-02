@@ -1,8 +1,6 @@
-package tests.day17_TestNG_POM;
+package tests.day17_TestNG_POMg;
 
 import org.testng.annotations.Test;
-import utilities.ConfigReader;
-import utilities.Driver;
 
 public class C04_DriverClassSingletonPattern {
     @Test

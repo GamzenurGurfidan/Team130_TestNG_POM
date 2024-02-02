@@ -7,7 +7,7 @@
     <test name="class level paralel calistirme">
         
         <packages>
-            <package name="tests.day17_TestNG_POM"></package>
+            <package name="tests.day17_TestNG_POMg"></package>
         </packages>
         
     </test>
