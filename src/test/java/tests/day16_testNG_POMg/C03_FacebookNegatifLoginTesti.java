@@ -1,4 +1,4 @@
-package tests.day16_testNG_POM;
+package tests.day16_testNG_POMg;
 
 import com.github.javafaker.Faker;
 import org.testng.Assert;

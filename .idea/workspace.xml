@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 18">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19_TestNGReports/C01_RaporluTestOlusturma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19_TestNGReports/C02_RaporluAramaSepetiTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/ClassBazindaParalelCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/istenenGruplariCalistirma.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmlFiles/testBazindaParalelCalistirma.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14_testNG/C01_TestNGIlkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14_testNG/C01_TestNGIlkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C01_PageClassIlePozitifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C01_PageClassIlePozitifLoginTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C02_PageClassKullanimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C02_PageClassKullanimi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C03_FacebookNegatifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16_testNG_POM/C03_FacebookNegatifLoginTesti.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18_softAssertion_xmlFiles/C01_SoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18_softAssertion_xmlFiles/C01_SoftAssertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+    <list default="true" id="f28d8857-23c2-4789-a30b-238e20c15f20" name="Changes" comment="day 15">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C01_PozitifLoginTesti.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C01_PozitifLoginTesti.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C02_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C02_Priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C03_PriorityKurallari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C03_PriorityKurallari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POMg/C04_DepensOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_testNG_POM/C04_DepensOnMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/istenenClasslariCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/istenenMethodlariCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmlFiles/istenenPackagelariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/istenenPackagelariCalistirma.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,17 +296,58 @@
       <option name="project" value="LOCAL" />
       <updated>1706646122507</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="day 18">
+      <option name="closed" value="true" />
+      <created>1706890448680</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890448680</updated>
+    </task>
+    <task id="LOCAL-00016" summary="day 14">
+      <option name="closed" value="true" />
+      <created>1706890549022</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890549022</updated>
+    </task>
+    <task id="LOCAL-00017" summary="day 14">
+      <option name="closed" value="true" />
+      <created>1706890566293</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890566293</updated>
+    </task>
+    <task id="LOCAL-00018" summary="day 15">
+      <option name="closed" value="true" />
+      <created>1706890585359</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890585359</updated>
+    </task>
+    <task id="LOCAL-00019" summary="day 15">
+      <option name="closed" value="true" />
+      <created>1706890601963</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706890601963</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="day 15" />
     <MESSAGE value="pages" />
     <MESSAGE value="driver" />
     <MESSAGE value="day 16" />
     <MESSAGE value="day 17" />
     <MESSAGE value="day 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 18" />
+    <MESSAGE value="day 14" />
+    <MESSAGE value="day 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

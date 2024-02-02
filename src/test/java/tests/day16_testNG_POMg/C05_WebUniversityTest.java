@@ -1,7 +1,6 @@
-package tests.day16_testNG_POM;
+package tests.day16_testNG_POMg;
 
 import com.github.javafaker.Faker;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.Test;
