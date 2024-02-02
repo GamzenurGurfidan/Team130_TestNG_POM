@@ -1,47 +1,30 @@
-package tests.day18_softAssertion_xmlFiles;
+package tests.day19_TestNGReports;
 
 import org.openqa.selenium.Keys;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.TestOtomasyonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
+import utilities.TestBaseRapor;
 
-public class C01_SoftAssertion {
-    /*
-        TestNG JUnit'teki assertion classinin aynisina sahiptir
-
-        Ancak bu assertionda, bir test methodunun icinde birden fazla assertion oldugunda
-        ilk FAILED olan assertionda kodlarin calismasini durdugu icin
-        geriye kalan assertionlarin sonuclarini gorme sansimiz OLMAZ
-
-        Eger birden fazla assertion olan bir test methodunda
-        tum assertionlari yapip
-        en sonda varsa failed tum assertionlari reporlamiasini istersek
-        TestNG deki softAssert classini kullanabiliriz
-
-        SoftAssert kullanmak için 3 aadim gerekir
-        1- softAssert objesi olusturma
-        2- olusturdugumuz obje üzerinden assertionlari yapma
-        3- assertAll() ile yapilan tum assertionlari raporlama
-
-        softAssert hatayi assertAll() methodunun calistigi satirda raporlar
-        birden fazla assertion olan bir methodda
-        failed olan assertioni rahat bulabilmek icin
-        assertion kodlarina mesaj da eklemek isabetli bir tercih olacaktir
-
-        softAssert ile hazirlanan bir test methodunun sonunda
-        assertAll() demezsek
-        failed olan assertion olsa bile
-        testimiz PASSED olur
-     */
-
+public class C01_RaporluTestOlusturma extends TestBaseRapor {
     @Test
-    public void sofAssertAramaTesti(){
+    public void aramaTesti(){
+        /*
+            raporlu olmasini istedigimiz her test methodunda
+            1- classin TestBaseRapora child yapilmasi
+            2- extentTest objesinin olusturulmasi
+            3- raporda cıkamsini istedigimiz test adimlarini
+               extentTest objesi ile islemeliyiz
+         */
+
+        extentTest = extentReports.createTest("arama testi","test otomasyonunda phone aranabilmeli");
 
         // testotomasyonu anasayfasina gidelim
         Driver.getDriver().get(ConfigReader.getProperty("toURL"));
+        extentTest.info("Kullanici testotomasyonu anasayfasina gider");
 
         // sayfaya gittiginizi test edin
         String expectedURL = ConfigReader.getProperty("toURL")+"/";
@@ -51,10 +34,14 @@ public class C01_SoftAssertion {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(actualURL,expectedURL,"URL Testi FAILED"); // 1. assertion yapildi
 
+        extentTest.info("testotomasyonu sayfasina gittiginiz test eder");
+
         // phone için arama yapın
 
         TestOtomasyonPage testOtomasyonPage = new TestOtomasyonPage();
         testOtomasyonPage.aramaKutusu.sendKeys("phone" + Keys.ENTER);
+
+        extentTest.info("phone için arama yapar");
 
         // bulunan urun sayisinin 3den falza oldugunu test edin
         int expectedUrunSayisi = 3;
@@ -63,22 +50,31 @@ public class C01_SoftAssertion {
         // Assert.assertTrue(actualUrunSayisi > expectedUrunSayisi);
         softAssert.assertTrue(actualUrunSayisi > expectedUrunSayisi,"2. assertion FAILED"); // 2. assertion
 
+        extentTest.info("bulunan urun sayisinin 3den falza oldugunu test eder");
+
         // ilk ürüne tiklayin
         testOtomasyonPage.bulunanUrunElementleriList.get(0).click();
 
+        extentTest.info("ilk ürüne tiklar");
+
         // acilan urun sayfasindai urun isminin
         // case sensetive olmadan phone içerdigini test edin
-        String expectedUrunIsimIcerik = "phone";
+        String expectedUrunIsimIcerik = "phonel";
         String actualUrunIsimElementi = testOtomasyonPage.urunIsimElementi.getText().toLowerCase();
+
+        extentTest.info("urun isminin case sensetive olmadan phone içerdigini test eder");
 
         // Assert.assertTrue(actualUrunIsimElementi.contains(expectedUrunIsimIcerik));
         softAssert.assertTrue(actualUrunIsimElementi.contains(expectedUrunIsimIcerik),"Urun Ismi FAILED"); // 3. assertion
-
+        ReusableMethods.bekle(2);
         softAssert.assertAll();
+
+        extentTest.pass("softAssert ile yapılan tum assertionlar reporlanir");
 
         // sayfayi kapatin
 
         Driver.quitDriver();
 
+        extentTest.info("sayfayi kapatir");
     }
 }

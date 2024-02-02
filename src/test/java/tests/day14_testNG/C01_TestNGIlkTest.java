@@ -9,7 +9,7 @@ import utilities.TestBase;
 
 public class C01_TestNGIlkTest extends TestBase {
 
-    @Test
+    @Test(groups = "regression")
     public void aramaTesti(){
 
         // testotomasyonu anasayfaya gidin
