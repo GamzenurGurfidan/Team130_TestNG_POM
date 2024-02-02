@@ -8,7 +8,7 @@
 
         <classes>
             
-            <class name="tests.day15_testNG_POM.C01_PozitifLoginTesti"></class>
+            <class name="tests.day15_testNG_POMg.C01_PozitifLoginTesti"></class>
             <class name="tests.day16_testNG_POM.C01_PageClassIlePozitifLoginTesti"></class>
             <class name="tests.day16_testNG_POM.C02_PageClassKullanimi"></class>
             <class name="tests.day17_TestNG_POM.C01_NegatifLoginTesti"></class>

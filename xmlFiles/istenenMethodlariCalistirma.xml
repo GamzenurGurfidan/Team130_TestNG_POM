@@ -20,7 +20,7 @@
                     </include>
                 </methods>
             </class>
-            <class name="tests.day15_testNG_POM.C02_Priority">
+            <class name="tests.day15_testNG_POMg.C02_Priority">
                 <methods>
                     <exclude name="ilkUrunIsimTesti">
 
