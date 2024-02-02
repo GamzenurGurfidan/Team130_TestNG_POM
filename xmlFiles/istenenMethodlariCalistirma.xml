@@ -14,7 +14,7 @@
     <test name="Secilen method Testleri">
 
         <classes>
-            <class name="tests.day17_TestNG_POMg.C01_NegatifLoginTesti">
+            <class name="tests.day17_TestNG_POM.C01_NegatifLoginTesti">
                 <methods>
                     <include name="gecersizPasswordTesti">
                     </include>

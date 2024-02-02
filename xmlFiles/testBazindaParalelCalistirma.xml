@@ -20,15 +20,15 @@
 
     <test name="browser1">
         <classes>
-            <class name="tests.day17_TestNG_POMg.C01_NegatifLoginTesti"></class>
-            <class name="tests.day17_TestNG_POMg.C02_UrunSepetiTesti"></class>
+            <class name="tests.day17_TestNG_POM.C01_NegatifLoginTesti"></class>
+            <class name="tests.day17_TestNG_POM.C02_UrunSepetiTesti"></class>
         </classes>
     </test>
     <test name="browser2">
             <classes>
-                <class name="tests.day17_TestNG_POMg.C03_SwitchingWindows"></class>
-                <class name="tests.day17_TestNG_POMg.C04_DriverClassSingletonPattern"></class>
-                <class name="tests.day17_TestNG_POMg.C05_Assertions"></class>
+                <class name="tests.day17_TestNG_POM.C03_SwitchingWindows"></class>
+                <class name="tests.day17_TestNG_POM.C04_DriverClassSingletonPattern"></class>
+                <class name="tests.day17_TestNG_POM.C05_Assertions"></class>
             </classes>
     </test>
 
