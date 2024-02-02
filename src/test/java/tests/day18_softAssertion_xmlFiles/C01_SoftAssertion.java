@@ -1,7 +1,6 @@
 package tests.day18_softAssertion_xmlFiles;
 
 import org.openqa.selenium.Keys;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.TestOtomasyonPage;
