@@ -1,4 +1,4 @@
-package tests.day16_testNG_POMg;
+package tests.day16_testNG_POM;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
