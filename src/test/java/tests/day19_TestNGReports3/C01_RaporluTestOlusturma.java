@@ -1,4 +1,4 @@
-package tests.day19_TestNGReports;
+package tests.day19_TestNGReports3;
 
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
